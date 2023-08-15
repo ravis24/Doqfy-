@@ -1,0 +1,63 @@
+p {
+    font-family: Lato;
+  }
+  
+  .asd {
+    background-color: red;
+  }
+  
+  .donutCls {
+    /* min-width: 10px;  */
+    height: 200px;
+    /* max-width: 600px;  */
+    margin: 0 auto
+  }
+
+
+  .card {
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 14px;
+    margin-right: 10px;
+  }
+  
+  .card-body {
+    padding-left: 15px;
+    padding-top: 10px;
+    color: black;
+  }
+  
+  .horizontal-card-container {
+    display: flex; /* Display cards horizontally */
+    flex-wrap: nowrap; /* Prevent cards from wrapping to the next line */
+  }
+  
+  .card-css {
+    border: 1px solid #a488b9;
+    flex: 0 0 47.33%; /* Flex property to control card width */
+    padding: 5px;
+    margin-right: 10px; /* Add some spacing between cards */
+  }
+  .color_css{
+    color: #a488b9;
+    margin-top: 10px;
+  }
+
+  .frequently-used-card{
+    text-decoration: underline;
+    padding-left: 20px;
+    padding-top: 10px;
+  }
+  @media only screen and (max-width: 1024px){
+    .card-css{
+      flex: 0 0 45.33%;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .card-css{
+      flex: 0 0 42.33%;
+    }
+  }
+
+  

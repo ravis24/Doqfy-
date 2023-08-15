@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px;
+    background-color: white;
+    color: black;
+    width: 100%;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+.navigation{
+  margin-right: 28px;
+}
+
+.navigation a {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.menu{
+  display: none;
+  margin-right: 10px;
+  font-size: 30px;
+}
+@media only screen and (max-width: 768px) {
+  
+    .header {
+      .navigation {
+        display: none;
+      }
+    }
+    .menu {
+      display: initial;
+    }
+  
+  .header{
+    width: 759px;
+  }
+}

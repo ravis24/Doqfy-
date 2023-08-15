@@ -1,0 +1,50 @@
+.footer {
+    background-color: white;
+    color: #333;
+    padding: 20px;
+    margin-left: 10px;
+  }
+  
+  .social-icons {
+    display: flex;
+    /* justify-content: center; */
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #ccc; /* Add border style */
+    /* transition: background-color 0.3s; */
+    text-decoration: none;
+  }
+  
+  .social-icon i {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .social-icon:hover {
+    background-color: #eee;
+  }
+  .copyright{
+    float: right;
+    margin-top: -37px;
+    margin-right: 65px;
+  }
+  .fotter_css{
+    margin-right: -25px;
+  }
+  @media only screen and (max-width: 768px) {
+  
+  .footer{
+    width: 729px;
+  }
+}
+  

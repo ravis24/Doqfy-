@@ -1,0 +1,58 @@
+.card {
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+    width: 300px;
+    margin-top: 14px;
+    margin-left: 33px;
+  }
+  
+  .card-header {
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  .profile_card{
+    margin-left: 15px;
+  }
+  .card-body {
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  .color_css{
+    color: #a488b9;
+    float: right;
+    margin-right: 18px;
+    font-size: 21px;
+  }
+  .action_card_css{
+    border: 1px solid grey; /* 1px solid border for visualization */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 253px;
+  }
+  .pending_action_css{
+    height: 655px;
+    overflow-y: scroll;
+  }
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+.days_left{
+  float: right;
+  margin-right: 5px;
+  background-color: grey;
+  border-radius: 10%;
+}
+  
